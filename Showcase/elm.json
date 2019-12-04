@@ -1,7 +1,7 @@
 {
     "type": "application",
     "source-directories": [
-        "src", "grp1", "grp2"
+        "src", "grp1", "grp2", "grp31"
     ],
     "elm-version": "0.19.1",
     "dependencies": {
