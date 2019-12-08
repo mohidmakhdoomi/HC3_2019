@@ -28,7 +28,34 @@ How we imagine TrigVis to used is by adding trig equations, adjusting parameters
 real time changes to the graph. Our hope is that through this very interactive and visual experience
 our users are able to better comprehend and make sense of trigonometric functions.
 
-Some important things to note about TrigVis:
+Norman's Principles:
+Our project TrigVis is designed for our users and at its core affords visualizing trigonometric functions. 
+At a more detailed level it affords displaying trig functions as a function of time on a graph and affords 
+manipulating the parameters of trig functions. We have developed this project so that it has a high level 
+of feedback and this is done using many methods. One method is through increasing the transparency of the 
+add function button (+) to show the button as disabled when we have reached the maximum number of equations. 
+Another method is showing the addition and removal of new equations clearly and immediately in the 
+Equation section. Furthermore, adjusting parameters using sliders has an almost immediate effect on the 
+respective equation and wave on the graph. We also believe the design of TrigVis leads to strong 
+discoverability due to its simplistic design, well labeled features and intuitive conceptual model. 
+We say the conceptual model is intuitive as all our users (first year university students) have seen graphs, 
+understand their functionality and know at least some of the trigonometric functions in the Functions section. 
+So based on just that knowledge alone it is easy for our users to deduce that using the + buttons they can 
+add trig functions to the graph. Once they add a function, they are immediately shown the newly added equation 
+in the Equations section. Again, this ties into providing a high level of discoverability and feedback for our users. 
+An aspect of our design which was influenced by the feedback we received from our users was color coding 
+equations and their respective waves on the graph. We find using color coding to be very effective and a 
+powerful signifier as it makes it clear which equation is represented by which wave. 
+Some others signifiers we have included in our design are the + and - buttons and sliders. 
+Sliders are powerful signifiers and physical constraints that allow users to input values for our 4 parameters 
+while also limiting the values to a desired range. Furthermore, for the Period slider, 
+which in our case is a function of time, is also used to apply a logical constraint where the slider value 
+cannot be below 0 (negative time does not make sense). Lastly, the sliders are used to include mapping between 
+their positions and the values of our 4 parameters which is instrumental in helping our users visualize and
+understand how changes to parameters affect trigonometric functions both graphically and textually.
+
+
+Important things to note about TrigVis (this is a detailed breakdown of functionality but code is also commented):
 - By default, we start with 0 existing equations and so the Graph is empty,
     the sliders in the Parameters section is disabled and there are
     no equations displayed in the Equations section
